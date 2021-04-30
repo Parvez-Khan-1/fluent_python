@@ -1,11 +1,13 @@
 # Using Local Variable
 
+
 def averager():
     count = 0
     sum = 0
+
     def average(num):
         nonlocal count, sum
-        count +=1
+        count += 1
         sum += num
         return sum/count
     return average

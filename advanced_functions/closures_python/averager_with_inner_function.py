@@ -1,5 +1,6 @@
 # Continues average with nested function
 
+
 def averager():
     series = []
 
