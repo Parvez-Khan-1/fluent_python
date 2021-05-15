@@ -20,4 +20,4 @@ c.hello()  # The python Method Resolution Order calls the hello function of Clas
 # If we want to call hello func of class B we can call it as below:
 # class C(A, B):
 #     def hello(self):
-#         super().hello()
+#         B.hello(self)
